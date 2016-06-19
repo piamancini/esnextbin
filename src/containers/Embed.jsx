@@ -1,4 +1,5 @@
 import React from 'react';
+import BundleHOC from './BundleHOC';
 
 class Embed extends React.Component {
     render() {
@@ -8,4 +9,4 @@ class Embed extends React.Component {
     }
 }
 
-export default Embed;
+export default BundleHOC(Embed);
